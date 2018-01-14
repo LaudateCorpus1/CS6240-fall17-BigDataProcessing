@@ -4,6 +4,8 @@ Project is about classifying the image pixel as bright or dark based upon its ne
 
 Code was written in scala and run on Amazon Elastic MapReduce. 
 
+![this](images/idea.png)
+
 Team Mates -
 1. [Rohan Chitnis](https://www.linkedin.com/in/rohan-chitnis-57615b79/)
 2. [Saurabh Singh](https://www.linkedin.com/in/saurabhsingh13nov/)
