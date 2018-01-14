@@ -29,9 +29,9 @@ c) For Local or AWS execution, follow below steps:
 
 makefile -
 has 3 parameters for running main function -
-1. input - training data directory
+1. input - training data directory(create this directory)
 2. output - output directory
-3. validation/ testing data directory
+3. validation- testing data directory(create this directory)
 Executions -
 1. Local execution - 
 	run `make alone` commmand for local execution
