@@ -1,6 +1,6 @@
 ## About the project
 
-Project is about classifying the image pixel as bright or dark based upon its neighbours. Images are of brain scans and is in 3D format. 6 images of size 100GB(approx) were analyzed and used to train the Random Forest Classifier Model predicted the brightes/darkeness of the pixel with 99.056% accuracy.
+Project is about classifying the image pixel as bright or dark based upon its neighbours. Images are of brain scans and is in 3D format. 6 images of size 100GB(approx) were analyzed and used to train the Random Forest Classifier Model predicted the brightes/darkeness of the pixel with 99.51% accuracy.
 
 Code was written in scala and run on Amazon Elastic MapReduce. 
 
