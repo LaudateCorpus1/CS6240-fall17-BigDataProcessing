@@ -1,0 +1,61 @@
+2017-12-09T01:07:04.086Z INFO Ensure step 2 jar file command-runner.jar
+2017-12-09T01:07:04.087Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar spark-submit --class cs6240.ModelFile --master yarn --deploy-mode cluster s3://ssinghmapreduceproject/PreUpdate-1.jar s3://ssinghmapreduceproject/input2 s3://ssinghmapreduceproject/depth5tree200ForTiming_run3 s3://ssinghmapreduceproject/core-var-test'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-2ENCPIR5Y3QKB/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-0-196
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-2ENCPIR5Y3QKB
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-2ENCPIR5Y3QKB/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-2ENCPIR5Y3QKB/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-2ENCPIR5Y3QKB
+INFO ProcessRunner started child process 7586 :
+hadoop    7586  3280  0 01:07 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar spark-submit --class cs6240.ModelFile --master yarn --deploy-mode cluster s3://ssinghmapreduceproject/PreUpdate-1.jar s3://ssinghmapreduceproject/input2 s3://ssinghmapreduceproject/depth5tree200ForTiming_run3 s3://ssinghmapreduceproject/core-var-test
+2017-12-09T01:07:08.124Z INFO HadoopJarStepRunner.Runner: startRun() called for s-2ENCPIR5Y3QKB Child Pid: 7586
+INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO Process still running
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO total process run time: 1538 seconds
+2017-12-09T01:32:44.386Z INFO Step created jobs: 
+2017-12-09T01:32:44.386Z INFO Step succeeded with exitCode 0 and took 1538 seconds
+
